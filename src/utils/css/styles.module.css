@@ -1,0 +1,35 @@
+.gameSwiper {
+    padding: 20px 40px;
+  }
+  
+  .gameSwiper :global(.swiper-button-next),
+  .gameSwiper :global(.swiper-button-prev) {
+    background: #f3f4f6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+  }
+  
+  .gameSwiper :global(.swiper-button-next:hover),
+  .gameSwiper :global(.swiper-button-prev:hover) {
+    background: #e5e7eb;
+  }
+  
+  .gameSwiper :global(.swiper-button-next:after),
+  .gameSwiper :global(.swiper-button-prev:after) {
+    font-size: 20px;
+    color: #374151;
+  }
+  
+  .paginationBullet {
+    width: 8px;
+    height: 8px;
+    background: #d1d5db;
+    opacity: 1;
+    margin: 0 4px;
+  }
+  
+  .paginationBulletActive {
+    background: #6b7280;
+  }
